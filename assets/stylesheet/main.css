@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    font-family: Arial,Helvetica,sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -45,4 +46,14 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+
+svg {
+    max-height: 60px;
+    fill: white;
+}
+
+.hero {
+    background-color: #f72210;
 }
