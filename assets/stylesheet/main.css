@@ -30,7 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
-    font-family: Arial,Helvetica,sans-serif;
+	font-family: Arial,Helvetica,sans-serif;
+	background-color: #f4f5f6;
 }
 ol, ul {
 	list-style: none;
@@ -70,6 +71,9 @@ svg {
 		padding: 0!important;
 		max-height: 50px;
 	}
+	header .hero .level {
+		padding-top: 0!important;
+	}
  }
 .header-bottom::before {
 	position: absolute;
@@ -84,6 +88,7 @@ svg {
 }
 .header-bottom {
 	border-bottom-color: #f4f5f6;
+	background-color: white;
 	position: relative;
 	display: block;
 	padding: 15px 160px 15px 0;
@@ -105,4 +110,7 @@ ul li input[type="text"] {
 .navbar-burger span {
 	width: 26px;
 	padding: 1px 0;
+}
+.trending-nav li a{
+	letter-spacing: -0.05rem;
 }
