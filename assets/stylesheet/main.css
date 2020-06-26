@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
 	font-family: Arial,Helvetica,sans-serif;
+	letter-spacing: -0.05rem;
 }
 ol, ul {
 	list-style: none;
@@ -113,9 +114,6 @@ ul li input[type="text"] {
 	width: 26px;
 	padding: 1px 0;
 }
-.trending-nav li a{
-	letter-spacing: -0.05rem;
-}
 
 /*** Main section ***/
 .is-5by3 {
@@ -132,7 +130,70 @@ article p{
 	border-bottom: none;
 }
 .is-clipped {
-	max-height: 2050px;
+	max-height: 2150px;
 	overflow: scroll!important;
 	scrollbar-width: none;
+}
+@media screen and (min-width:1023px) {
+	.is-6-desktop {
+		width: 36%!important;
+	}
+	.is-3-desktop {
+		width: 32%!important;
+	}
+}
+.debate-border {
+	border-top: 4px solid #f92859;
+	border-bottom: 4px solid #1c87fb;
+}
+.deco {
+	position: relative;
+}
+.deco::before {
+	top: calc(50% - 2px);
+	content: "";
+	display: block;
+	background-color: #d9d9d9;
+	height: 1px;
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+.deco::after {
+	top:50%;
+	content: "";
+	display: block;
+	background-color: #d9d9d9;
+	height: 1px;
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+.c-vs {
+	position: relative;
+	z-index: 1;
+	width: 32px;
+	height: 32px;
+	background-color: #000;
+	color: #d6d6d6;
+	border-radius: 50%;
+	font: bold 14px/32px "Roboto Condensed",sans-serif;
+	text-align: center;
+	margin: 6px auto;
+}
+.opinion article {
+	border-bottom: 1px solid #dddddd;
+	border-top: none!important;
+}
+
+.opinion article:last-child {
+	border-bottom: none;
+}
+.newsletter {
+	background-color: #f4f5f6;
+	width: 75%;
+	margin: 0 auto;
+}
+.newsletter button {
+	background-color: #f72210!important;
 }
