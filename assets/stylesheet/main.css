@@ -117,10 +117,22 @@ ul li input[type="text"] {
 	letter-spacing: -0.05rem;
 }
 
+/*** Main section ***/
 .is-5by3 {
 	padding-top: 68%!important;
 }
 article p{
 	line-height: 1.2rem;
 	font-size: 0.96rem;
+}
+.more-stories {
+	border-bottom: 1px solid #dddddd;
+}
+.more-stories:last-child {
+	border-bottom: none;
+}
+.is-clipped {
+	max-height: 2050px;
+	overflow: scroll!important;
+	scrollbar-width: none;
 }
