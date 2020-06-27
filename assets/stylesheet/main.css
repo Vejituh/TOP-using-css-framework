@@ -76,6 +76,12 @@ svg {
 	}
 	header .hero .level {
 		padding-top: 0!important;
+		display: flex;
+		align-items: center;
+		height: 50px;
+	}
+	.level-right {
+		display: flex;
 	}
  }
 .header-bottom::before {
@@ -196,4 +202,41 @@ article p{
 }
 .newsletter button {
 	background-color: #f72210!important;
+}
+
+.header-section {
+	align-items: center;
+	justify-content: center;
+	border-bottom: 1px solid #d9d9d9;
+}
+
+.magazine-image {
+	overflow: hidden!important;
+	padding-top: 100%!important;
+}
+
+.magazine-image img {
+	width: auto!important;
+	max-width: inherit!important;
+	left: -23%!important;
+}
+.features {
+	background-color: #f4f5f6;
+	border: none;
+}
+.main-link {
+	background-color: #f72210;
+	color: white;
+}
+.is-text {
+	color: #f72210!important;
+	text-decoration: none!important;
+}
+
+.in-focus {
+	position: absolute;
+	margin-top: -38px;
+}
+.in-focus button {
+	border: none!important;
 }
