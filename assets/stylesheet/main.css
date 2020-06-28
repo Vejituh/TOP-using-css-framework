@@ -64,6 +64,9 @@ svg {
 	.level-right {
 		margin: 0!important;
 	}
+	.featured-stories {
+		padding-left: 0.75rem!important;
+	}
 }
 .hero {
 	background-color: #f72210;
