@@ -247,3 +247,44 @@ article p{
 	height: auto;
 	width: 96px;
 }
+.is-tall {
+	width: 186px;
+	height: 296px;
+}
+.current {
+	position: absolute;
+	top: 13px;
+	left: 84px;
+}
+.pr {
+	position: relative;
+}
+.pl-12 {
+	padding-left: 6rem;
+}
+.subscribe {
+	background-color: #f4f5f6;
+}
+
+.newsletter-bottom .media-left {
+	width: 48%;
+	max-width: 191px!important;
+}
+.newsletter-bottom figure {
+	overflow: hidden!important;
+}
+.newsletter-bottom img {
+	position: relative;
+	min-height: 22rem!important;
+	width: auto!important;
+	max-width: inherit!important;
+	left: -100%!important;
+}
+.newsletter-border {
+	border: 1px solid #ebebeb;
+}
+@media screen and (min-width:1408px) {
+	.is-4-fullhd {
+		width: 32%!important;
+	}
+}
