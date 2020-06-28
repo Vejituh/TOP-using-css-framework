@@ -243,3 +243,7 @@ article p{
 .border-bottom {
 	border-bottom: 1px solid #d9d9d9;
 }
+.is-96w {
+	height: auto;
+	width: 96px;
+}
